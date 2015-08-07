@@ -8,7 +8,8 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 require('./models/Posts');
 //mongoose.connect('mongodb://localhost/news');
-mongoose.connect('mongodb://hexy:hexy@ds059712.mongolab.com:59712/flapper');
+// mongoose.connect('mongodb://hexy:hexy@ds059712.mongolab.com:59712/flapper');
+mongoose.connect('mongodb://hexy:hexy@ds031213.mongolab.com:31213/heroku_0bgztk1l');
 
 require('./models/Comments');
 
